@@ -1,9 +1,10 @@
-public class ShipCharacter {
+public abstract class ShipCharacter {
 
-    int platingRate;
-    int ShieldDisRate;
-    int BeamWeaponPow;
-    int TorpedoCount;
+    protected int platingRate;
+    protected int ShieldDisRate;
+    protected int BeamWeaponPow;
+    protected int TorpedoCount;
+    protected String Registry;
 
-
+    public void showStats(){}
 }
